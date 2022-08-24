@@ -13,7 +13,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=11249",
       color: ["#769C81", "#5A322A"],
       id: v4(),
-      active: false,
+      active: true,
     },
     {
       name: "Lunar Cycles",
@@ -23,7 +23,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10031",
       color: ["#0C819F", "#994E31"],
       id: v4(),
-      active: true,
+      active: false,
     },
     {
       name: "Woodnote",
