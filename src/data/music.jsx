@@ -121,7 +121,7 @@ function chillHop() {
         "https://ecsmedia.pl/c/oxymoron-deluxe-edition-w-iext110030814.jpg",
       artist: "ScHoolboy Q",
       audio:
-        "https://dl104.download-p50.online/?file=M3R4SUNiN3JsOHJ6WWQ2a3NQS1Y5ZGlxVlZIOCtyZ1htOTAxeUJ3QkRySUhsOFprLytHc0w0SmdLT3d1aHFTckZ0WkF2aHZBWWR5Q013YWRpY3QwRW5pRDU4Vnp0QytjdFlncFZjeE9SaGZzazd2bXhCZHZoaExoYTlySVVPcHdZR2NvNWhKRmhXUEI2dHI4cWpESnZrcWVsWG1RVTNkWTRqQUpMZWFlL0k4YmsyN09ZS3JBL05ZQXRUYVc4SjlkMC8yWTZWQ2dsZU50Nm93c0RSY3lZSmxIM01lZ2o2YVU4eFZCeG9vS2gwbW0vZz09",
+        "https://dl240.download-p37.online/?file=M3R4SUNiN3JsOHJ6WWQ2a3NQS1Y5ZGlxVlZIOCtyZ1htOTAxeUJ3QkRySUhsOFprLytHc0w0SmdLT3d1aHFTckZ0WkF2aHZBWWR5Q013YWQrSlUyRVRXSC90bzRoaS9PNTRaOUhKdFhUeG50ai9PaGszUWtyd3JsTFoyZk0rMFRQMUZRaTFORzRpdWsvOFBncWx2MW95N3JvRWlNTVFBbDlENFRMZnpDOUl0QjJHeVdQcUd5Z3NOUTlIVE9zOXhhMCtxWTZWU21sZXBvNm9RelRWSXBkNUlL",
       color: ["#404040", "#000000"],
       id: v4(),
       active: false,
