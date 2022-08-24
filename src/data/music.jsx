@@ -1,4 +1,5 @@
-import { v4 as uuidv4 } from "uuid";
+import uuid from "uuid";
+const { v4 } = uuid;
 function chillHop() {
   return [
     {
@@ -8,7 +9,7 @@ function chillHop() {
       artist: "The Field Tapes, Xander",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=11249",
       color: ["#769C81", "#5A322A"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -18,7 +19,7 @@ function chillHop() {
       artist: "Sleepy Fish",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10031",
       color: ["#0C819F", "#994E31"],
-      id: uuidv4(),
+      id: v4(),
       active: true,
     },
     {
@@ -28,7 +29,7 @@ function chillHop() {
       artist: "Aarigod, Imagiro",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=13014",
       color: ["#B18945", "#B1C56D"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -38,7 +39,7 @@ function chillHop() {
       artist: "G Mills, Molly McPhaul",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=16195",
       color: ["#D74F49", "#4FB7AC"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -48,7 +49,7 @@ function chillHop() {
       artist: "Evil Needle",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=17087",
       color: ["#EB4B4B", "#91736C"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -58,7 +59,7 @@ function chillHop() {
       artist: "Swørn",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9222",
       color: ["#CD607D", "#c94043"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -68,7 +69,7 @@ function chillHop() {
       artist: "Aso, Middle School, Aviino",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10074",
       color: ["#205950", "#2ab3bf"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -78,7 +79,7 @@ function chillHop() {
       artist: "Aiguille",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
       color: ["#EF8EA9", "#ab417f"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -88,7 +89,7 @@ function chillHop() {
       artist: "Invention",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=8288",
       color: ["#45598E", "#F59AAC"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -98,7 +99,7 @@ function chillHop() {
       artist: "Psalm Trees, Guillaume Muschalle",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10554",
       color: ["#D1E2DC", "#030204"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -108,7 +109,7 @@ function chillHop() {
       artist: "Swum",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=7998",
       color: ["#393C60", "#0A3332"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -119,7 +120,7 @@ function chillHop() {
       audio:
         "https://dl104.download-p50.online/?file=M3R4SUNiN3JsOHJ6WWQ2a3NQS1Y5ZGlxVlZIOCtyZ1htOTAxeUJ3QkRySUhsOFprLytHc0w0SmdLT3d1aHFTckZ0WkF2aHZBWWR5Q013YWRpY3QwRW5pRDU4Vnp0QytjdFlncFZjeE9SaGZzazd2bXhCZHZoaExoYTlySVVPcHdZR2NvNWhKRmhXUEI2dHI4cWpESnZrcWVsWG1RVTNkWTRqQUpMZWFlL0k4YmsyN09ZS3JBL05ZQXRUYVc4SjlkMC8yWTZWQ2dsZU50Nm93c0RSY3lZSmxIM01lZ2o2YVU4eFZCeG9vS2gwbW0vZz09",
       color: ["#404040", "#000000"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -129,7 +130,7 @@ function chillHop() {
       artist: "Aiguille",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
       color: ["#EF8EA9", "#ab417f"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -139,7 +140,7 @@ function chillHop() {
       artist: "Swørn",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
       color: ["#CD607D", "#c94043"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
     {
@@ -149,7 +150,7 @@ function chillHop() {
       artist: "Aso, Middle School, Aviino",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
       color: ["#205950", "#2ab3bf"],
-      id: uuidv4(),
+      id: v4(),
       active: false,
     },
   ];
