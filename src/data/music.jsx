@@ -1,5 +1,8 @@
-import uuid from "uuid";
-const { v4 } = uuid;
+const v4 = () => {
+  const head = Date.now().toString(36);
+  const tail = Math.random().toString(36).substr(2);
+  return head + tail;
+}
 function chillHop() {
   return [
     {
