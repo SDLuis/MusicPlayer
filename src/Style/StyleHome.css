@@ -1,0 +1,15 @@
+body {
+  background-color: #eaeef3;
+}
+
+.player {
+  width: 20rem;
+  border-radius: 1.5rem;
+  box-shadow: 25px 25px 50px #c7cacf, -25px -25px 50px #ffffff;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+}
