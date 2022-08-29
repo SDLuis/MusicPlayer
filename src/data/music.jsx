@@ -2,9 +2,19 @@ const v4 = () => {
   const head = Date.now().toString(36);
   const tail = Math.random().toString(36).substr(2);
   return head + tail;
-}
+};
 function chillHop() {
   return [
+    {
+      name: "Making a Way",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/07/e435a424c2a637c19d2241dea2399a4813d984b3-1024x1024.jpg",
+      artist: "The BREED",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=41956",
+      color: ["#C8BAA6", "#A93724"],
+      id: v4(),
+      active: false,
+    },
     {
       name: "Flowers",
       cover:
@@ -116,17 +126,6 @@ function chillHop() {
       active: false,
     },
     {
-      name: "Hell Of A Night",
-      cover:
-        "https://ecsmedia.pl/c/oxymoron-deluxe-edition-w-iext110030814.jpg",
-      artist: "ScHoolboy Q",
-      audio:
-        "https://dl240.download-p37.online/?file=M3R4SUNiN3JsOHJ6WWQ2a3NQS1Y5ZGlxVlZIOCtyZ1htOTAxeUJ3QkRySUhsOFprLytHc0w0SmdLT3d1aHFTckZ0WkF2aHZBWWR5Q013YWQrSlUyRVRXSC90bzRoaS9PNTRaOUhKdFhUeG50ai9PaGszUWtyd3JsTFoyZk0rMFRQMUZRaTFORzRpdWsvOFBncWx2MW95N3JvRWlNTVFBbDlENFRMZnpDOUl0QjJHeVdQcUd5Z3NOUTlIVE9zOXhhMCtxWTZWU21sZXBvNm9RelRWSXBkNUlL",
-      color: ["#404040", "#000000"],
-      id: v4(),
-      active: false,
-    },
-    {
       name: "Nightfall",
       cover:
         "https://chillhop.com/wp-content/uploads/2020/07/ef95e219a44869318b7806e9f0f794a1f9c451e4-1024x1024.jpg",
@@ -156,6 +155,28 @@ function chillHop() {
       id: v4(),
       active: false,
     },
+    /*{
+      name: "Hell Of A Night",
+      cover:
+        "https://ecsmedia.pl/c/oxymoron-deluxe-edition-w-iext110030814.jpg",
+      artist: "ScHoolboy Q",
+      audio:
+        "https://cdn01.ytapi.download/dl?hash=ad468Q%2BgC7fRos%2Fw3AgSaffPbdS5V%2F7UwTgJev7veMnp1uhISc63RS5ceoomGaJO6qKygvvhaVI8ibBLrysvbgufXP%2BBhCSMSQDfxG%2F%2B2dn0XOqMh071GDLZtb6d7aXQswD8pMVL6vmlqdAyQgkZijFeUSIEiohlwDfFjizN2TFATpB6dhEdjBVbzy0zwpmCbZ8ClC9Crse3P8eQ6Xg6Ig%3D%3D",
+      color: ["#404040", "#000000"],
+      id: v4(),
+      active: false,
+    },
+    {
+      name: "Man Of The Year",
+      cover:
+        "https://ecsmedia.pl/c/oxymoron-deluxe-edition-w-iext110030814.jpg",
+      artist: "ScHoolboy Q",
+      audio:
+        "https://cdn01.ytapi.download/dl?hash=VNMLKadQF45JGwoZRFUTnF3exBZK5QFOJ8eqMPikweohN3HynNIH210OtxTAE84HedeMXTpKmGMN4Pie42FCxAqTsk97e5Ov0SyNTURqAHMZYlZL%2BqoI6TBHu%2BRgapj05Xc26LWM8bfxR91U7%2BZtTrGnkgCKfWkvciq4XqR1JU2US7D4vJEwJD%2F8177A5JI8EBFcRNZCaz8m6GZAnhn6Ig%3D%3D",
+      color: ["#404040", "#000000"],
+      id: v4(),
+      active: false,
+    },*/
   ];
 }
 
