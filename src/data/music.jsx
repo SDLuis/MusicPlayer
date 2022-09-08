@@ -1,3 +1,22 @@
+import makingaway from '../img/Makingaway.webp'
+import BeaverCreek from '../img/Beaver Creek.webp'
+import Cruising from '../img/Cruising.webp'
+import Daylight from '../img/Daylight.webp'
+import Desire from '../img/Desire.webp'
+import Flowers from '../img/Flowers.webp'
+import KeepGoing from '../img/Keep Going.webp'
+import LunarCycles from '../img/Lunar Cycles.webp'
+import Nightfall from '../img/Nightfall.webp'
+import Reflection from '../img/Reflection.webp'
+import Sonar from '../img/Sonar.webp'
+import Stay from '../img/Stay.webp'
+import UndertheCityStars from '../img/Under the City Stars.webp'
+import Waterfalls from '../img/Waterfalls.webp'
+import Woodnote from '../img/Woodnote.webp'
+
+
+
+
 const v4 = () => {
   const head = Date.now().toString(36);
   const tail = Math.random().toString(36).substr(2);
@@ -7,8 +26,7 @@ function chillHop() {
   return [
     {
       name: "Making a Way",
-      cover:
-        "src/img/makingaway.webp",
+      cover: makingaway,
       artist: "The BREED",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=41956",
       color: ["#C8BAA6", "#A93724"],
@@ -17,8 +35,7 @@ function chillHop() {
     },
     {
       name: "Flowers",
-      cover:
-        "src/img/Flowers.webp",
+      cover: Flowers,
       artist: "The Field Tapes, Xander",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=11249",
       color: ["#769C81", "#5A322A"],
@@ -27,8 +44,7 @@ function chillHop() {
     },
     {
       name: "Lunar Cycles",
-      cover:
-        "src/img/Lunar Cycles.webp",
+      cover: LunarCycles,
       artist: "Sleepy Fish",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10031",
       color: ["#0C819F", "#994E31"],
@@ -37,8 +53,7 @@ function chillHop() {
     },
     {
       name: "Woodnote",
-      cover:
-        "src/img/Woodnote.webp",
+      cover: Woodnote,
       artist: "Aarigod, Imagiro",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=13014",
       color: ["#B18945", "#B1C56D"],
@@ -47,8 +62,7 @@ function chillHop() {
     },
     {
       name: "Waterfalls",
-      cover:
-        "src/img/Waterfalls.webp",
+      cover: Waterfalls,
       artist: "G Mills, Molly McPhaul",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=16195",
       color: ["#D74F49", "#4FB7AC"],
@@ -57,8 +71,7 @@ function chillHop() {
     },
     {
       name: "Cruising",
-      cover:
-        "src/img/Cruising.webp",
+      cover: Cruising,
       artist: "Evil Needle",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=17087",
       color: ["#EB4B4B", "#91736C"],
@@ -67,8 +80,7 @@ function chillHop() {
     },
     {
       name: "Keep Going",
-      cover:
-        "src/img/Keep Going.webp",
+      cover: KeepGoing,
       artist: "Swørn",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9222",
       color: ["#CD607D", "#c94043"],
@@ -77,8 +89,7 @@ function chillHop() {
     },
     {
       name: "Under the City Stars",
-      cover:
-        "src/img/Under the City Stars.webp",
+      cover: UndertheCityStars,
       artist: "Aso, Middle School, Aviino",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10074",
       color: ["#205950", "#2ab3bf"],
@@ -87,8 +98,7 @@ function chillHop() {
     },
     {
       name: "Daylight",
-      cover:
-        "src/img/Daylight.webp",
+      cover: Daylight,
       artist: "Aiguille",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9272",
       color: ["#EF8EA9", "#ab417f"],
@@ -97,8 +107,7 @@ function chillHop() {
     },
     {
       name: "Sonar",
-      cover:
-        "src/img/Sonar.webp",
+      cover: Sonar,
       artist: "Invention",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=8288",
       color: ["#45598E", "#F59AAC"],
@@ -107,8 +116,7 @@ function chillHop() {
     },
     {
       name: "Desire",
-      cover:
-        "src/img/Desire.webp",
+      cover: Desire,
       artist: "Psalm Trees, Guillaume Muschalle",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10554",
       color: ["#D1E2DC", "#030204"],
@@ -117,8 +125,7 @@ function chillHop() {
     },
     {
       name: "Stay",
-      cover:
-        "src/img/Stay.webp",
+      cover: Stay,
       artist: "Swum",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=7998",
       color: ["#393C60", "#0A3332"],
@@ -127,8 +134,7 @@ function chillHop() {
     },
     {
       name: "Nightfall",
-      cover:
-        "src/img/Nightfall.webp",
+      cover: Nightfall,
       artist: "Aiguille",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9148",
       color: ["#EF8EA9", "#ab417f"],
@@ -137,8 +143,7 @@ function chillHop() {
     },
     {
       name: "Reflection",
-      cover:
-        "src/img/Reflection.webp",
+      cover: Reflection,
       artist: "Swørn",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9228",
       color: ["#CD607D", "#c94043"],
@@ -147,8 +152,7 @@ function chillHop() {
     },
     {
       name: "Beaver Creek",
-      cover:
-        "src/img/Beaver Creek.webp",
+      cover: BeaverCreek,
       artist: "Aso, Middle School, Aviino",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
       color: ["#205950", "#2ab3bf"],
