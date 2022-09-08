@@ -7,11 +7,7 @@ import Library from "./Library";
 import UseSongHandler from "../hooks/useSongHandler";
 
 export default function Home() {
-  useEffect(() => {
-    setAnimated(true);
-  }, []);
   const {
-    setAnimated,
     songEndHandler,
     activeLibraryHandler,
     timeUpdateHandler,
@@ -26,21 +22,18 @@ export default function Home() {
     songs,
     setSongs,
     setCurrentSong,
-    animated,
   } = UseSongHandler();
   return (
     <div
-      className={`${
-        animated ? "" : "opacity-0"
-      }  min-h-screen grid place-items-center `}
+      className="min-h-screen grid place-items-center"
     >
       <div className="player relative overflow-hidden p-6 mx-auto max-h-[90vh]">
         <div className="flex justify-end">
           <button
-            className="text-gray-700"
+            className="text-gray-700 flex items-center"
             onClick={() => setLibraryStatus(!libraryStatus)}
           >
-            <LibraryIcon />
+            <LibraryIcon /><p>Library</p> 
           </button>
         </div>
         <Song currentSong={currentSong} />

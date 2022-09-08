@@ -2,7 +2,6 @@ import { useState, useRef } from "react";
 import data from "../data/music"
 
 export default function UseSongHandler() {
-  const [animated, setAnimated] = useState(false);
   const audioRef = useRef(null);
   const [songs, setSongs] = useState(data());
   const [currentSong, setCurrentSong] = useState(songs[0]);
@@ -54,5 +53,5 @@ export default function UseSongHandler() {
     activeLibraryHandler(songs[(currentIndex + 1) % songs.length]);
     if (isPlaying) audioRef.current.play();
   };
-  return { animated, setAnimated, songEndHandler, activeLibraryHandler, timeUpdateHandler, libraryStatus, setLibraryStatus, setIsPlaying, currentSong, isPlaying, songInfo, setSongInfo, audioRef, songs, setSongs, setCurrentSong }
+  return { songEndHandler, activeLibraryHandler, timeUpdateHandler, libraryStatus, setLibraryStatus, setIsPlaying, currentSong, isPlaying, songInfo, setSongInfo, audioRef, songs, setSongs, setCurrentSong }
 }

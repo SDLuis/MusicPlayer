@@ -45,14 +45,17 @@ const Player = ({
           style={linearGradient}
           className="track bg-slate-400 w-full h-4 relative rounded-2xl overflow-hidden"
         >
+          <label>
           <input
             className="range w-full cursor-pointer bg-transparent appearance-none focus:outline-none"
+            htmlFor="bar"
             type="range"
             min="0"
             max={songInfo.duration || 0}
             value={songInfo.currentTime}
             onChange={dragHandler}
           />
+          </label>
           <div
             style={trackAnimation}
             className="animate-track bg-[#cccccc] absolute left-0 top-0 w-full h-full pointer-events-none translate-x-[0%]"

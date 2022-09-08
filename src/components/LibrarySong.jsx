@@ -25,7 +25,7 @@ const LibrarySong = ({
         song.active ? "border-2  bg-slate-300" : ""
       }`}
     >
-      <img className="w-2/12" src={song.cover} alt="Song Cover" />
+      <img width={'100%'} height={'100%'} className="w-2/12" src={song.cover} alt="Song Cover" />
       <div className="song-description pl-4">
         <h3 className="text-sm">{song.name}</h3>
         <h4 className="text-xs">{song.artist}</h4>
